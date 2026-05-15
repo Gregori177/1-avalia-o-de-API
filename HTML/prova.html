@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto API</title>
+
+    <link rel="stylesheet" href="../CSS/prova.css">
+    <script src="../JS/prova.js" defer></script>
+</head>
+
+<body>
+
+    <div class="topo">
+
+        <h1>Catálogo de APIs</h1>
+
+        <div class="botoes">
+
+            <button onclick="pokemon()">Pokémon</button>
+
+            <button onclick="rick()">Rick and Morty</button>
+
+            <button onclick="dragon()">Dragon Ball</button>
+
+            <div class="dar">
+            <button onclick="modoDark()">Modo Dark</button>
+            </div>
+        </div>
+
+        <div class="pesquisa">
+
+            <input type="text" id="nome" placeholder="Pesquisar personagem">
+
+            <button onclick="buscar()">Buscar</button>
+
+        </div>
+
+    </div>
+
+    <div id="resultado">
+
+    </div>
+
+</body>
+
+</html>

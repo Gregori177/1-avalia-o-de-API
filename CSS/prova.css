@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+.topo {
+    background-color: rgb(7, 7, 136);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+
+    margin: 5px;
+
+    border: none;
+
+    background-color: white;
+    color: rgb(7, 7, 136);
+}
+
+input {
+    width: 200px;
+    height: 35px;
+
+    margin-top: 15px;
+
+    padding-left: 10px;
+}
+
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+
+    color: white;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.card img {
+    width: 150px;
+    height: 200px;
+
+}
+
+.dark {
+    background-color: rgb(54, 51, 51);
+}
+
+.dark .card {
+    background-color: darkgray;
+    color: white;
+}
+
+.dar button {
+    background-color: gray;
+    color: white;
+    margin-left: 1000px;
+}
